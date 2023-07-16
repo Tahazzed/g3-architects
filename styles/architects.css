@@ -124,9 +124,19 @@ main{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-
-
+.sponsors{
+  text-align: center;
+}
+.sponsors-img-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+}
+.sponsors-img-container img{
+  width: 165px;
+}
 
 /* responsive media quaries */
 /* mobile devices */
@@ -143,8 +153,11 @@ main{
   .teams-img-container{
     grid-template-columns: 1fr;
   }
-  .teams-content{
+  .teams-content, .facts-card-container{
     padding: 0px 20px;
+  }
+  .facts-card-container{
+    gap: 20px;
   }
 }
 
